@@ -562,7 +562,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			try {
 				//TODO
 				/*
-				*TODO
+				*模板空方法，子类实现
 				* */
 				// Allows post-processing of the bean factory in context subclasses.
 				postProcessBeanFactory(beanFactory);

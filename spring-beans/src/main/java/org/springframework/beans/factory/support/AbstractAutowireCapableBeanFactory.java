@@ -1783,7 +1783,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
 		Object wrappedBean = bean;
 		if (mbd == null || !mbd.isSynthetic()) {
-			//对类中某些特殊方法的调用，比如@PostConstruct，Aware接口，非常重要 重要程度 ：5
+			//对类中某些特殊方法的调用，比如@PostConstruct，@Import,Aware接口，非常重要 重要程度 ：5
 			wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
 		}
 
